@@ -1,0 +1,17 @@
+<nav search_view="search">
+  <view name="attack_matrix_risk_view" default='true'/>
+  <collection label="RBA Investigation">
+    <view name="RBASystemEvents"></view>
+    <view name="RBAUserEvents"></view>
+    <view name="rba_attribution__threat_object"></view>
+  </collection>
+
+  <collection label="RBA Configuration">
+    <saved name="RBA MITRE Context Gen" />
+    <view name="rba_correlation_audit"></view>
+  </collection>
+
+  <view name="search" />
+  <view name="reports" />
+  <view name="dashboards" />
+</nav>

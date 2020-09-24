@@ -1,0 +1,5 @@
+*local.meta
+
+# Avoids compiled Python
+*.pyc
+
